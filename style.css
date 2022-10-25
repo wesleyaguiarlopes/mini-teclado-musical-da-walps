@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
 * {
     box-sizing: border-box;
     color: whitesmoke;
@@ -34,6 +38,13 @@ body {
         padding-left: 50px;
     }
 
+        .label-ligado-desligado {
+            font-family: "Rajdhani", sans-serif;
+            color:#ffd700;
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+
         .borda-do-botao {
             background:#000;
             border-radius: 100%;
@@ -51,6 +62,14 @@ body {
             width: 35px;
             height: 35px;
         }
+
+    .logo-marca {
+        font-family: "Gemunu Libre", sans-serif;
+        font-size: 60px;
+        color: #00d4ff;
+        border-top: #00d4ff 1px solid;
+        border-bottom: #00d4ff 1px solid;
+    }
 
 .oitavas {
     display: flex;
