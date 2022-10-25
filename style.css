@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+    color: whitesmoke;
+    margin: 0px;
+}
+
+body {
+    background: linear-gradient(90deg, #5c0067 0%, #00d4ff 100%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
