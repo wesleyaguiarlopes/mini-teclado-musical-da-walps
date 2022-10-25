@@ -12,3 +12,58 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+.teclado {
+    background: #363636;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 3px 3px 3px #6e6e6e;
+}
+
+.oitavas {
+    display: flex;
+    position: relative;
+}
+
+    .oitava {
+        display: flex;
+        position: relative;
+    }
+
+        .tecla-branca {
+            border: 1px solid #000;
+            background: #fff;
+            width: 50px;
+            height: 300px;
+            border-radius: 0px 0px 5px 5px;
+            border-top: hwb(0 71% 29%) 7px solid;
+        }
+
+        .tecla-preta {
+            background: linear-gradient(173deg, rgba(0,0,0,1) 92%, rgba(255,255,255,1) 100%);
+            border: #000 1px solid;
+            width: 30px;
+            height: 180px;
+            position: absolute;
+        }
+
+        
+        .do-sustenido {
+            left: 35px;
+        }
+
+        .re-sustenido {
+            left: 85px;
+        }
+
+        .fa-sustenido {
+            left: 185px;
+        }
+
+        .sol-sustenido {
+            left: 235px;
+        }
+
+        .la-sustenido {
+            left: 285px;
+        }
