@@ -39,6 +39,11 @@ body {
             border-top: hwb(0 71% 29%) 7px solid;
         }
 
+            .tecla-branca:active {
+                box-shadow: inset 7px 0px 5px hwb(0 71% 29%);
+                height: 296px;
+            }
+
         .tecla-preta {
             background: linear-gradient(173deg, rgba(0,0,0,1) 92%, rgba(255,255,255,1) 100%);
             border: #000 1px solid;
@@ -47,7 +52,6 @@ body {
             position: absolute;
         }
 
-        
         .do-sustenido {
             left: 35px;
         }
@@ -67,3 +71,8 @@ body {
         .la-sustenido {
             left: 285px;
         }
+
+            .tecla-preta:active {
+                box-shadow: 7px 0px 5px hwb(0 71% 29%);
+                height: 176px;
+            }
