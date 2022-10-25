@@ -20,6 +20,13 @@ body {
     box-shadow: 3px 3px 3px #6e6e6e;
 }
 
+.painel {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-bottom: 20px;
+}
+
 .oitavas {
     display: flex;
     position: relative;
