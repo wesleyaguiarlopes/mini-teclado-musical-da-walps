@@ -27,6 +27,31 @@ body {
     margin-bottom: 20px;
 }
 
+    .area-do-botao {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-left: 50px;
+    }
+
+        .borda-do-botao {
+            background:#000;
+            border-radius: 100%;
+            width: 60px;
+            height: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .botao-power {
+            background: #808080;
+            border-radius: 100%;
+            border: #000 1px solid;
+            width: 35px;
+            height: 35px;
+        }
+
 .oitavas {
     display: flex;
     position: relative;
