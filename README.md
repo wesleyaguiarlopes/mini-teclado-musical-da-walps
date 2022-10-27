@@ -1,8 +1,12 @@
-# Mini Teclado Musical da WAL
+# Mini Teclado Musical da WALps
 
-Um profissional, diria que é um **Controlador MIDI**, mas digo eu, o projetista, que é um **Mini Teclado Musical**. Ainda não coloquei ele na tomada, por isso ainda não emite som. Ele está sendo criado em *HTML* e *CSS*. A intensão é ligar ele na tomada com *JavaScript*. Vamos uma coisa de cada vez!
+![Imagem7](https://user-images.githubusercontent.com/107886503/198173789-40538c24-01d3-42b6-8dd0-7e942e04e94d.png) Inspirado no meu Teclado [CASIO WK-240](https://www.casio.com/content/dam/casio/product-info/locales/intl/en/emi/product/W/WK/WK2/WK-240/assets/WK-240_Seq2.jpg), apresento o **Tecladin WALps**, desenvolvido em *HTML* e *CSS*. Um profissional, diria que é um **Controlador MIDI**, mas digo eu, o projetista, que é um **Mini Teclado Musical**.
 
-## O Mini WAL
-   é baseado no meu teclado pessoal, um [CASIO WK-240](https://www.casioteclados.com.br/produto/wk-240__es/)
-   
-   Sou um tecladista iniciante, dando meus primeiros passos
+## Pressiono as teclas e não emite som, o que pode ser?
+   Estou projetando energia digital em *JavaScript*, para fazer com que ele funcione, mas vamos um passo de cada vez!
+
+## Especificações
+
+Tecladin WALps | CASIO WK-240
+:-------------:|:-----------:
+37 teclas      |76 teclas
