@@ -90,13 +90,14 @@ body {
             border-top: hwb(0 71% 29%) 7px solid;
         }
 
-            .tecla-branca:active {
-                box-shadow: inset 7px 0px 5px hwb(0 71% 29%);
-                height: 296px;
-            }
+                .tecla-branca:active {
+                    box-shadow: inset 9px 0px 5px hwb(0 71% 29%);
+                    height: 296px;
+                }
 
         .tecla-preta {
             background: linear-gradient(173deg, rgba(0,0,0,1) 92%, rgba(255,255,255,1) 100%);
+            box-shadow: 10px 2px 5px hwb(0 71% 29%);
             border: #000 1px solid;
             width: 30px;
             height: 180px;
@@ -124,6 +125,7 @@ body {
         }
 
             .tecla-preta:active {
-                box-shadow: 7px 0px 5px hwb(0 71% 29%);
+                box-shadow: 6px 2px 5px hwb(0 71% 29%);
+                background: linear-gradient(173deg, rgba(0,0,0,1) 89%, rgba(255,255,255,1) 100%);
                 height: 176px;
             }
